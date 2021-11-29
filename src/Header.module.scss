@@ -1,0 +1,37 @@
+@import './constants.scss';
+
+
+// $bitemeRed: #722626;
+// $bitemeFleshColor: #e7e8d1;
+// $bitemeGreen: #243327;
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: $bitemeGreen;
+
+  background-color: $bitemeFleshColor;
+  border-radius: 10px;
+  padding: $appHorizontalMargin $appHorizontalMargin $appHorizontalMargin; //calc($appHorizontalMargin * 3)
+}
+
+.Header__controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Header__title {
+  font-size: 62px;
+  margin: 0 0 $appHorizontalMargin;
+  font-family: 'Evolventa', sans-serif;
+}
+
+.Header__disclaimer {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 0 $appHorizontalMargin;
+}

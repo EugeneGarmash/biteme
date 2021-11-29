@@ -1,0 +1,14 @@
+@import './constants.scss';
+
+.ActionButton {
+  padding: $appHorizontalMargin;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: $borderRadius10;
+  border: none;
+  background: $bitemeFleshColor;
+}
