@@ -7,7 +7,6 @@ import Buttons from './Buttons';
 function App() {
 
   window.location.href = 'https://www.instagram.com/eugene_garmash/';
-  // return null;
   return null;
 
   return (
